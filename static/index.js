@@ -120,5 +120,8 @@ function regAction() {
 }
 
 function clearAction() {
-  
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  clickX = [];
+  clickY = [];
+  clickDrag = [];
 }
