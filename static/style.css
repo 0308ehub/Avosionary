@@ -1,0 +1,23 @@
+body {
+    background-color: #afeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+    margin: 0;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button.is-info {
+    color: rgb(0, 0, 0);
+}
+
+.canvas {
+    border-color: black;
+}
