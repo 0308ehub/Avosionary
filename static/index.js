@@ -106,7 +106,7 @@ function regAction() {
     })
     .then(response => {
         if (response.ok) {
-            return response.json(); // Parse JSON response
+            return response.json(); 
         }
         throw new Error('Network response was not ok.');
     })
@@ -119,3 +119,6 @@ function regAction() {
     });
 }
 
+function clearAction() {
+  
+}
